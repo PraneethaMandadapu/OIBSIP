@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>TEMPERATURE CONVERTER</title>
+</head>
+
+<body>
+    <div class="Admin">
+        <form id="Tempcalc" onclick="tempCalc(); return false">
+            <label for="temp">Enter temperature to convert</label>
+            <br>
+            <input type="number" name="temperature" id="temp">
+            <select name="type" id="type">
+                <option value="fah">Fah</option>
+                <option value="cel">Cel</option>
+            </select>
+            <br>
+            <input type="submit" name="temp" id="submit" value="Convert">
+            <br>
+            <span id="result"></span>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
